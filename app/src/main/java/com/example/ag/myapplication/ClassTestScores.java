@@ -13,7 +13,7 @@ public class ClassTestScores extends SQLiteOpenHelper {
     private final static int DB_VERSION = 1;
 
     public ClassTestScores(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+        super(context, Class_Test_Scores, factory, DB_VERSION);
     }
 
     @Override
